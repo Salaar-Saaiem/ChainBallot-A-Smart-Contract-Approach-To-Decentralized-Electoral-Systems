@@ -20,19 +20,15 @@ ChainBallot follows a **Hybrid On-Chain / Off-Chain Architecture**, consisting o
 
 ---
 
-### 📌 Architecture Diagram
+## <picture> <img src="https://github.com/Salaar-Saaiem/EV-Adoption-Forecasting/blob/25cf376c3e3e651dad009fde041aab5d2da213c0/Assets/520.gif?raw=true" alt="🐾" width="32" height="32"></picture> Model Architecture 
 
-<div align="center">
-
-🚧 **Architecture Diagram Placeholder**
-
-[🔗 ADD ARCHITECTURE IMAGE LINK HERE]
-
-</div>
+<p align="center">
+  <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/ARCHITECTURE.png" alt="Accuracy & Loss" width="700"/>
+</p>
 
 ---
 
-## 🚀 Core Features
+## <picture> <img src="https://github.com/Salaar-Saaiem/EV-Adoption-Forecasting/blob/25cf376c3e3e651dad009fde041aab5d2da213c0/Assets/515.gif?raw=true" alt="🚀" width="32" height="32"></picture> Features
 
 ### 🔐 Blockchain-Based Voting
 - Gas-optimized Solidity smart contracts
@@ -49,6 +45,11 @@ ChainBallot follows a **Hybrid On-Chain / Off-Chain Architecture**, consisting o
 - Automatic session expiration
 - Prevention of prolonged or malicious voting attempts
 
+<p align="center">
+  <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/SESSION.png" alt="Accuracy & Loss" width="700"/>
+</p>
+
+
 ---
 
 ### 👥 Role-Based Access Control (RBAC)
@@ -61,13 +62,10 @@ ChainBallot follows a **Hybrid On-Chain / Off-Chain Architecture**, consisting o
 
 ### 📊 Real-Time Vote Results
 
-<div align="center">
+<p align="center">
+  <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/COUNTING.png" alt="Accuracy & Loss" width="700"/>
+</p>
 
-📊 **Real-Time Result System Preview**
-
-[🔗 ADD RESULTS SCREENSHOT LINK HERE]
-
-</div>
 
 - Live vote aggregation directly from blockchain state
 - Transparent and publicly verifiable vote counts
@@ -107,46 +105,43 @@ The smart contract minimizes unnecessary storage writes and redundant state upda
 - Result retrieval
 
 This improves cost efficiency while preserving blockchain immutability.
+<p align="center">
+  <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/GAS%20EFFICIENCY%201.png" alt="Accuracy & Loss" width="700"/>
+</p>
+<p align="center">
+  <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/GAS%20EFFICIENCY.png" alt="Accuracy & Loss" width="700"/>
+</p>
 
 ---
 
 ## 🔄 System Workflow
-
-<div align="center">
-
-🔄 **Workflow Diagram Placeholder**
-
-[🔗 ADD WORKFLOW DIAGRAM LINK HERE]
-
-</div>
+<p align="center">
+  <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/DFD%202.png" alt="Accuracy & Loss" width="700"/>
+</p>
+<p>
 
 ---
 
 ## 📷 Screenshots
 
-<div align="center">
+### Login Page
+<p align="center">
+  <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/LOGIN.png" alt="Accuracy & Loss" width="700"/>
+</p>
 
-🖥 **Admin Panel Screenshot**
+### Admin Dashboard
+<p align="center">
+  <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/ADMIN.png" alt="Accuracy & Loss" width="700"/>
+</p>
 
-[🔗 ADD ADMIN PANEL IMAGE LINK HERE]
-
-<br><br>
-
-🗳 **Voting Interface Screenshot**
-
-[🔗 ADD VOTING PAGE IMAGE LINK HERE]
-
-<br><br>
-
-🦊 **MetaMask Transaction Screenshot**
-
-[🔗 ADD METAMASK IMAGE LINK HERE]
-
-</div>
+### Voter Interface
+<p align="center">
+  <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/VOTER.png" alt="Accuracy & Loss" width="700"/>
+</p>
 
 ---
 
-## ⚙ Installation & Setup
+## <picture><img src="https://github.com/Salaar-Saaiem/EV-Adoption-Forecasting/blob/25cf376c3e3e651dad009fde041aab5d2da213c0/Assets/514.gif?raw=true" alt="⚙" width="32" height="32"></picture> **Installation & Setup**
 
 Refer to `RUN.md` for complete setup instructions.
 
@@ -179,14 +174,6 @@ Refer to `RUN.md` for complete setup instructions.
 
 ---
 
-## 📄 License
+## <picture> <img src="https://github.com/Salaar-Saaiem/EV-Adoption-Forecasting/blob/25cf376c3e3e651dad009fde041aab5d2da213c0/Assets/517.gif?raw=true" alt="🫆" width="32" height="32"></picture> Ownership & License
 
-ISC License
-
----
-
-## 👨‍💻 Author
-
-SAM  
-Final Year Engineering Project  
-2026
+This project is the intellectual property of [Saaiem Salaar](https://www.linkedin.com/in/salaarsaaiem525) and is licensed under the [MIT License](LICENSE). This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software for personal or commercial purposes, provided that proper credit is given and the original license and copyright notice are included in all copies or substantial portions of the software. The software is provided "as is", without any warranty of any kind, express or implied, and the author is not liable for any claims, damages, or other liabilities arising from its use.
