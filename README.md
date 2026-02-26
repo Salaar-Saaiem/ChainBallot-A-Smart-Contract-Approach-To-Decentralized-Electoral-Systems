@@ -1,64 +1,192 @@
 # ChainBallot - A Smart Contract Approach To Decentralized Electoral Systems
 
-## Project Description
-This Hybrid-Decentralized voting system leverages the Ethereum blockchain to provide a secure, transparent, and tamper-proof voting platform. The system consists of smart contracts deployed on a local Ethereum blockchain, a Node.js backend server for serving the frontend and handling authentication, a Python FastAPI backend for database management, and a user-friendly frontend interface.
+## Abstract
 
-### Key Features:
-- **Smart Contract Voting:**
-  - Add candidates with name and party affiliation.
-  - Set voting start and end dates to control the voting period.
-  - Allow registered users to vote once during the voting period.
-  - Track vote counts for each candidate on the blockchain.
-  - Prevent double voting by tracking voter addresses.
-  - 60sec session window for voting to prevent melicious activities
+ChainBallot is a hybrid decentralized electoral framework designed to ensure secure, transparent, and tamper-resistant voting using Ethereum blockchain technology. The system integrates gas-optimized Solidity smart contracts for immutable vote recording with an off-chain backend infrastructure for scalable voter management, authentication, and administrative control.
 
-- **User Authentication and Roles:**
-  - JWT-based authentication for secure access.
-  - Role-based access control to differentiate between admin and voters.
-  - Login system integrated with a MySQL database backend.
+By combining on-chain vote integrity with off-chain database synchronization, ChainBallot addresses scalability, cost efficiency, and role-based access limitations commonly observed in fully on-chain voting systems.
 
-- **Frontend Interface:**
-  - Responsive UI for login, voting, and admin functionalities.
-  - Display of candidates, vote counts, and voting period.
-  - Integration with MetaMask for blockchain interactions.
+---
 
-- **Backend Services:**
-  - Node.js Express server serving static frontend files and handling authentication.
-  - Python FastAPI backend managing database operations and voter information.
-  - MySQL database for storing voter credentials and roles.
+## 🏗 System Architecture
 
-## 🚀 Features
+ChainBallot follows a **Hybrid On-Chain / Off-Chain Architecture**, consisting of:
 
-- 🔐 **Ethereum Smart Contracts** for immutable and secure vote recording
-- 🧠 **Node.js backend** to handle frontend serving and user authentication
-- ⚡ **FastAPI backend (Python)** for database management
-- 💻 **User-friendly frontend** built with HTML, CSS, and JavaScript
-- 🔄 Works on a **local Ethereum blockchain** (e.g., Ganache or Hardhat)
+1. Smart Contract Layer (Ethereum)
+2. Authentication & Server Layer (Node.js)
+3. Database & API Layer (FastAPI + MySQL)
+4. Frontend Interaction Layer (HTML/CSS/JS)
+5. Wallet Authentication Layer (MetaMask + Web3.js)
 
+---
 
-## 🛠️ Tech Stack
+### 📌 Architecture Diagram
+
+<div align="center">
+
+🚧 **Architecture Diagram Placeholder**
+
+[🔗 ADD ARCHITECTURE IMAGE LINK HERE]
+
+</div>
+
+---
+
+## 🚀 Core Features
+
+### 🔐 Blockchain-Based Voting
+- Gas-optimized Solidity smart contracts
+- Immutable vote recording on Ethereum blockchain
+- One-wallet–one-vote enforcement
+- Double-voting prevention using address mapping
+- Configurable voting start and end timestamps
+- Real-time vote count retrieval from blockchain
+
+---
+
+### ⏱ Session-Based Security
+- 60-second controlled voting session window
+- Automatic session expiration
+- Prevention of prolonged or malicious voting attempts
+
+---
+
+### 👥 Role-Based Access Control (RBAC)
+- Admin and Voter role segregation
+- JWT-based authentication
+- Secure login backed by MySQL database
+- Controlled candidate registration
+
+---
+
+### 📊 Real-Time Vote Results
+
+<div align="center">
+
+📊 **Real-Time Result System Preview**
+
+[🔗 ADD RESULTS SCREENSHOT LINK HERE]
+
+</div>
+
+- Live vote aggregation directly from blockchain state
+- Transparent and publicly verifiable vote counts
+- Dynamic frontend result updates
+
+---
+
+## 🛠 Technology Stack
 
 - **Blockchain**: Ethereum, Solidity, Ganache
-- **Backend**: Node.js, FastAPI (Python)
+- **Smart Contract Framework**: Truffle
+- **Backend (Server)**: Node.js, Express
+- **Backend (Database API)**: FastAPI (Python)
+- **Database**: MySQL
 - **Frontend**: HTML, CSS, JavaScript
-- **Smart Contract Interaction**: Web3.js, MetaMask
-- **Database**: (e.g., SQLite, PostgreSQL) — *Update this accordingly*
+- **Wallet Integration**: MetaMask, Web3.js
 
-## Prerequisites
-- Node.js and npm
-- Python 3.x [https://www.python.org/downloads/]
-- MySQL server [https://dev.mysql.com/downloads/mysql/]
-- Ganache (or any local Ethereum blockchain) running on port 7545 [https://archive.trufflesuite.com/ganache/]
-- MetaMask browser extension [https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en]
+---
 
-## Setup Instructions
-Please refer RUN.md for SETUP guidance
+## 🔐 Security Mechanisms
 
-## Troubleshooting
-- If you encounter issues connecting to the blockchain, verify Ganache is running on port 7545.
-- For database connection errors, check your MySQL credentials and database status.
-- Make sure environment variables are correctly set for both Node.js and Python environments.
+- Wallet-based identity verification
+- Double voting prevention via address tracking
+- Smart contract state validation
+- Session timeout enforcement
+- Backend-database synchronization checks
+- Gas-optimized contract structure for reduced transaction cost
 
-## License
-This project is a property of SAAIEM SALAAR and licensed under the ISC License.
->>>>>>> f918b06f1bac24186d5428118080d5e52909381a
+---
+
+## ⛽ Gas Optimization Strategy
+
+The smart contract minimizes unnecessary storage writes and redundant state updates to reduce gas consumption during:
+
+- Candidate registration
+- Vote casting
+- Result retrieval
+
+This improves cost efficiency while preserving blockchain immutability.
+
+---
+
+## 🔄 System Workflow
+
+<div align="center">
+
+🔄 **Workflow Diagram Placeholder**
+
+[🔗 ADD WORKFLOW DIAGRAM LINK HERE]
+
+</div>
+
+---
+
+## 📷 Screenshots
+
+<div align="center">
+
+🖥 **Admin Panel Screenshot**
+
+[🔗 ADD ADMIN PANEL IMAGE LINK HERE]
+
+<br><br>
+
+🗳 **Voting Interface Screenshot**
+
+[🔗 ADD VOTING PAGE IMAGE LINK HERE]
+
+<br><br>
+
+🦊 **MetaMask Transaction Screenshot**
+
+[🔗 ADD METAMASK IMAGE LINK HERE]
+
+</div>
+
+---
+
+## ⚙ Installation & Setup
+
+Refer to `RUN.md` for complete setup instructions.
+
+### Prerequisites
+- Node.js & npm
+- Python 3.x
+- MySQL Server
+- Ganache (running on port 7545)
+- MetaMask browser extension
+
+---
+
+## 🎓 Research Contribution Highlights
+
+- Hybrid On-Chain/Off-Chain Electoral Architecture
+- Efficient Gas Consumption Smart Contract Design
+- Real-Time Transparent Result Computation
+- Session-Based Security Enforcement
+- Role-Based Administrative Control
+- Modular Multi-Backend Implementation
+
+---
+
+## 🔮 Future Enhancements
+
+- Deployment on public Ethereum testnets
+- Zero-Knowledge Proof integration
+- Biometric-backed wallet verification
+- IPFS-based decentralized voter registry
+
+---
+
+## 📄 License
+
+ISC License
+
+---
+
+## 👨‍💻 Author
+
+SAM  
+Final Year Engineering Project  
+2026
