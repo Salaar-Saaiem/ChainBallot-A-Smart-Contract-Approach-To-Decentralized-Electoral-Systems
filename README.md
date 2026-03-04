@@ -1,7 +1,7 @@
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=Salaar-Saaiem.ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems)
 <br>
 
-# ChainBallot - A Smart Contract Approach To Decentralized Electoral Systems
+# <picture> <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/Animated%20Icons/Voting.gif?raw=true" alt="🐾" width="50" height="50"></picture>ChainBallot - A Smart Contract Approach To Decentralized Electoral Systems
 
 ## Abstract
 
