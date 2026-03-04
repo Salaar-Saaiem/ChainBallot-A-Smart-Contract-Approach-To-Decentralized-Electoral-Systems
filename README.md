@@ -33,7 +33,7 @@ ChainBallot follows a **Hybrid On-Chain / Off-Chain Architecture**, consisting o
 
 ## <picture> <img src="https://github.com/Salaar-Saaiem/EV-Adoption-Forecasting/blob/25cf376c3e3e651dad009fde041aab5d2da213c0/Assets/515.gif?raw=true" alt="🚀" width="32" height="32"></picture> Features
 
-### 🔐 Blockchain-Based Voting
+### <picture> <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/Animated%20Icons/Voting.gif?raw=true" alt="🐾" width="32" height="32"></picture>  Blockchain-Based Voting
 - Gas-optimized Solidity smart contracts
 - Immutable vote recording on Ethereum blockchain
 - One-wallet–one-vote enforcement
@@ -43,7 +43,7 @@ ChainBallot follows a **Hybrid On-Chain / Off-Chain Architecture**, consisting o
 
 ---
 
-### ⏱ Session-Based Security
+### <picture> <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/Animated%20Icons/wired-lineal-45-clock-time-hover-pinch.gif?raw=true" alt="🐾" width="32" height="32"></picture>  Session-Based Security
 - 60-second controlled voting session window
 - Automatic session expiration
 - Prevention of prolonged or malicious voting attempts
@@ -55,7 +55,7 @@ ChainBallot follows a **Hybrid On-Chain / Off-Chain Architecture**, consisting o
 
 ---
 
-### 👥 Role-Based Access Control (RBAC)
+### <picture> <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/Animated%20Icons/USERS.gif?raw=true" alt="🐾" width="32" height="32"></picture>  Role-Based Access Control (RBAC)
 - Admin and Voter role segregation
 - JWT-based authentication
 - Secure login backed by MySQL database
@@ -63,7 +63,7 @@ ChainBallot follows a **Hybrid On-Chain / Off-Chain Architecture**, consisting o
 
 ---
 
-### 📊 Real-Time Vote Results
+### <picture> <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/Animated%20Icons/Trends.gif?raw=true" alt="🐾" width="32" height="32"></picture>  Real-Time Vote Results
 
 <p align="center">
   <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/COUNTING.png" alt="Accuracy & Loss" width="700"/>
