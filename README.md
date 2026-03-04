@@ -88,7 +88,7 @@ ChainBallot follows a **Hybrid On-Chain / Off-Chain Architecture**, consisting o
 
 ---
 
-## 🔐 Security Mechanisms
+## <picture> <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/Animated%20Icons/Security.gif?raw=true" alt="🐾" width="32" height="32"></picture>  Security Mechanisms
 
 - Wallet-based identity verification
 - Double voting prevention via address tracking
@@ -125,7 +125,7 @@ This improves cost efficiency while preserving blockchain immutability.
 
 ---
 
-## 📷 Screenshots
+## <picture> <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/Animated%20Icons/Camera.gif?raw=true" alt="🐾" width="32" height="32"></picture>  Screenshots
 
 ### Login Page
 <p align="center">
@@ -168,7 +168,7 @@ Refer to `RUN.md` for complete setup instructions.
 
 ---
 
-## 🔮 Future Enhancements
+## <picture> <img src="https://github.com/Salaar-Saaiem/ChainBallot-A-Smart-Contract-Approach-To-Decentralized-Electoral-Systems/blob/main/Assests/Animated%20Icons/FutureEnhancement.gif?raw=true" alt="🐾" width="32" height="32"></picture>  Future Enhancements
 
 - Deployment on public Ethereum testnets
 - Zero-Knowledge Proof integration
